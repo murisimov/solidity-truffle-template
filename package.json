@@ -1,0 +1,30 @@
+{
+  "name": "solidity-truffle-template",
+  "version": "0.0.1",
+  "description": "Basic template for smart contracts development",
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "truffle": "truffle",
+    "ganache-cli": "ganache-cli --version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murisimov/solidity-truffle-template.git"
+  },
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "truffle",
+    "ganache"
+  ],
+  "author": "https://github.com/murisimov",
+  "contributors": [],
+  "license": "LGPL-3.0",
+  "homepage": "",
+  "dependencies": {
+    "ganache-cli": "6.0.3",
+    "truffle": "4.0.4",
+    "chai": "4.1.2"
+  }
+}
