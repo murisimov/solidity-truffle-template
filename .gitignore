@@ -38,4 +38,8 @@ jspm_packages
 
 build/
 
+.idea/
+
 package-lock.json
+
+bundle.js
