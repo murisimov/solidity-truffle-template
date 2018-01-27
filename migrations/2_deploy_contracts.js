@@ -8,7 +8,7 @@ const Example = artifacts.require('./Example');
  * @param network  string : Network name, e.g. "live" or "development"
  * @param accounts  array : Array with accounts addresses
  */
-module.exports = async (deployer, network, accounts)=> {
+module.exports = async (deployer, network, accounts) => {
     await deployer.deploy(Example);
 
     const example = await Example.deployed();
